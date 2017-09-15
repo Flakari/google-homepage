@@ -1,9 +1,3 @@
-@media screen and (min-width: 941px) {
-  #top-buttons {
-    float: right;
-  }
-}
-
 body {
   padding: 0;
   margin: 0;
@@ -40,7 +34,7 @@ body {
 #search input {
   border:none;
   font-family: arial, sans-serif;
-  font-size: 1.05em;
+  font-size: 14px;
   width: 525px;
   display: inline-block;
 }
@@ -88,6 +82,7 @@ input {
   text-align: right;
   margin-right: 33px;
   margin-top: 15px;
+  min-width: 866px;
 }
 
 #top a {
@@ -105,6 +100,7 @@ input {
 }
 
 #top-buttons {
+  float: right;
   height: 30px;
   width: 900px;
   clear: both;
@@ -143,6 +139,7 @@ input {
 }
 
 #bottom {
+  min-width: 900px;
   border-top: #dedede solid 1px;
   height: 40px;
   background-color: #f2f2f2;
